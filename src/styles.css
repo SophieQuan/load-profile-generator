@@ -1,3 +1,28 @@
 .card-header {
-    background-color: red;
+    background-color: rgb(79, 90, 45);
+    color: #E9E5D6;
+    border-radius: 5px;
+}
+
+.card {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 5px rgb(79, 90, 45);
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+header {
+    background-color: rgb(139, 165, 61);
+    color: #E9E5D6;
+    height: 10vh;
+}
+
+body {
+    background-color: #E9E5D6;
+}
+
+section {
+    justify-content: center;
 }

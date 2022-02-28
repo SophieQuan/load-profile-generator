@@ -22,6 +22,7 @@
     "homepage": "https://github.com/SophieQuan/load-profile-generator#readme",
     "dependencies": {
         "axios": "^0.26.0",
+        "bootstrap-icons": "^1.8.1",
         "inquirer": "^8.2.0"
     },
     "devDependencies": {

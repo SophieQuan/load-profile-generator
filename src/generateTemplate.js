@@ -5,12 +5,12 @@ const generateEngineerCard = function(engineer) {
             <div class="card">
                 <div class="card-header">
                     <h3>${engineer.name}</h3>
-                    <h3>${engineer.getRole()}</h3>
+                    <i class="bi bi-laptop"></i><h5>${engineer.getRole()}</h5>
                 </div>
                 <div class="card-body">
-                    <p class="id">ID: ${engineer.id}</p>
-                    <p class="email">Email: <a href="mailto:${engineer.email}"></a>${engineer.email}</p>
-                    <p class="github">Github Username: ${engineer.gitHub}</p>
+                    <p class="id"><b>ID:</b> ${engineer.id}</p>
+                    <p class="email"><b>Email:</b> <a href="mailto:${engineer.email}"></a>${engineer.email}</p>
+                    <p class="github"><b>Github:</b> ${engineer.gitHub}</p>
                 </div>
             </div>
         </div>
@@ -23,12 +23,12 @@ const generateInternCard = function(intern) {
             <div class="card">
                 <div class="card-header">
                     <h3>${intern.name}</h3>
-                    <h3>${intern.getRole()}</h3>
+                    <i class="bi bi-person-badge-fill"></i><h5>${intern.getRole()}</h5>
                 </div>
                 <div class="card-body">
-                    <p class="id">ID: ${intern.id}</p>
-                    <p class="email">Email: <a href="mailto:${intern.email}"></a>${intern.email}</p>
-                    <p class="schoolName">School Name: ${intern.school}</p>
+                    <p class="id"><b>ID:</b> ${intern.id}</p>
+                    <p class="email"><b>Email:</b> <a href="mailto:${intern.email}"></a>${intern.email}</p>
+                    <p class="schoolName"><b>School Name:</b> ${intern.school}</p>
                 </div>
             </div>
         </div>
@@ -41,12 +41,12 @@ const generateManagerCard = function(manager) {
         <div class="card">
             <div class="card-header">
                 <h3>${manager.name}</h3>
-                <h3>${manager.getRole()}</h3>
+                <i class="bi bi-person-rolodex"></i><h5>${manager.getRole()}</h5>
             </div>
             <div class="card-body">
-                <p class="id">ID: ${manager.id}</p>
-                <p class="email">Email: <a href="mailto:${manager.email}"></a>${manager.email}</p>
-                <p class="officeNumber">Office Number: ${manager.officeNumber}</p>
+                <p class="id"><b>ID:</b> ${manager.id}</p>
+                <p class="email"><b>Email:</b> <a href="mailto:${manager.email}"></a>${manager.email}</p>
+                <p class="officeNumber"><b>Office Number:</b> ${manager.officeNumber}</p>
             </div>
         </div>
     </div>
@@ -101,11 +101,13 @@ const generateTemplate = function(displayCards) {
                 <title>Profile Generator</title>
             </head>
             <body>
-                <header >
+                <header class="text-center d-flex flex-column justify-content-center">
                     <h1>Your Team Profile</h1>
                 </header>
-                <main class="row p-3">
-                    ${displayCards}
+                <main class="container">
+                    <section class="row">
+                        ${displayCards}
+                    </section>
                 </main>
                 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
             </body>
