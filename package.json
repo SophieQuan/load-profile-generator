@@ -1,0 +1,30 @@
+{
+    "name": "load-profile-generator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SophieQuan/load-profile-generator.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/SophieQuan/load-profile-generator/issues"
+    },
+    "homepage": "https://github.com/SophieQuan/load-profile-generator#readme",
+    "dependencies": {
+        "axios": "^0.26.0",
+        "inquirer": "^8.2.0"
+    },
+    "devDependencies": {
+        "jest": "^27.5.1"
+    }
+}
