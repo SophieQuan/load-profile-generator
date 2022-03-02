@@ -1,5 +1,8 @@
 //display engineer card
 const generateEngineerCard = function(engineer) {
+        //remove space if user enter with spaces for github username
+        let engineerInput = engineer.gitHub;
+        engineerInput = engineerInput.replace(/\s/g, '');
         return `
         <div class="col-12 col-md-6 col-lg-4">
             <div class="card">
@@ -9,8 +12,8 @@ const generateEngineerCard = function(engineer) {
                 </div>
                 <div class="card-body">
                     <p class="id"><b>ID:</b> ${engineer.id}</p>
-                    <p class="email"><b>Email:</b> <a href="mailto:${engineer.email}"></a>${engineer.email}</p>
-                    <p class="github"><b>Github:</b> ${engineer.gitHub}</p>
+                    <p class="email"><b>Email: </b><a href="mailto:${engineer.email}">${engineer.email}</a></p>
+                    <p class="github"><b>Github:</b><a href="https://github.com/${engineerInput}" target="_blank" > ${engineer.gitHub}</a></p>
                 </div>
             </div>
         </div>
@@ -26,8 +29,8 @@ const generateInternCard = function(intern) {
                     <i class="bi bi-person-badge-fill"></i><h5>${intern.getRole()}</h5>
                 </div>
                 <div class="card-body">
-                    <p class="id"><b>ID:</b> ${intern.id}</p>
-                    <p class="email"><b>Email:</b> <a href="mailto:${intern.email}"></a>${intern.email}</p>
+                    <p class="id"><b>ID: </b> ${intern.id}</p>
+                    <p class="email"><b>Email:</b><a href="mailto:${intern.email}">${intern.email}</a></p>
                     <p class="schoolName"><b>School Name:</b> ${intern.school}</p>
                 </div>
             </div>
@@ -45,7 +48,7 @@ const generateManagerCard = function(manager) {
             </div>
             <div class="card-body">
                 <p class="id"><b>ID:</b> ${manager.id}</p>
-                <p class="email"><b>Email:</b> <a href="mailto:${manager.email}"></a>${manager.email}</p>
+                <p class="email"><b>Email: </b><a href="mailto:${manager.email}">${manager.email}</a><p>
                 <p class="officeNumber"><b>Office Number:</b> ${manager.officeNumber}</p>
             </div>
         </div>
