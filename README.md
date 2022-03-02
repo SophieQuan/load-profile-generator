@@ -27,9 +27,8 @@ To Install dependencies, run the following:
 
         node index
 
-* The TEAM PROFILE GENERATOR is then prompted for your team members and their information and then an HTML file is generated that displays a nicely formatted team roster based on user input
-
-* When all information is added, a README.md file is generated.
+* The TEAM PROFILE GENERATOR is then prompted for your team members and their information 
+* When all information is added, an HTML file is generated that displays a nicely formatted team roster based on user input
 
 
 ## License
@@ -53,4 +52,3 @@ To run test, run the following:
 
 ## Demo
 Video walk through can be found here:
--     https://watch.screencastify.com/v/9iebVIjKfLc30r0T0kOn

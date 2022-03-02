@@ -51,3 +51,12 @@ h3,
 .github {
     text-transform: capitalize;
 }
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #516b03;
+    text-decoration: none;
+}
