@@ -47,8 +47,12 @@ To run test, run the following:
 - Any questions regarding this repository please contact me at [sophiequan7@gmail.com](mailto:sophiequan7@gmail.com).
 
 ## Screenshot
-![screen shot slick README generator](src/images/screenshot.png?raw=true "slick README generator Screenshot")
-![screen shot slick README generator2](assets/images/screenshot2.png?raw=true "slick README generator Screenshot2")
+![screen shot team profile generator #1](src/images/screenshot.png?raw=true "team profile generator web screenshot")
+![screen shot team profile generator #2](src/images/screenshot2.png?raw=true "team profile generator terminal demo screenshot #2")
+![screen shot team profile generator #3](src/images/screenshot3.png?raw=true "team profile generator terminal demo screenshot #3")
+
 
 ## Demo
 Video walk through can be found here:
+
+      https://watch.screencastify.com/v/CFIpGLLzLqP99b6MQFko
