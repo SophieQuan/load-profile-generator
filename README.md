@@ -46,7 +46,7 @@ To run test, run the following:
 - Check out my Github repos [sophiequan](https://github.com/sophiequan)
 - Any questions regarding this repository please contact me at [sophiequan7@gmail.com](mailto:sophiequan7@gmail.com).
 
-## Screenshot
+## Screenshots
 ![screen shot team profile generator #1](src/images/screenshot.png?raw=true "team profile generator web screenshot")
 ![screen shot team profile generator #2](src/images/screenshot2.png?raw=true "team profile generator terminal demo screenshot #2")
 ![screen shot team profile generator #3](src/images/screenshot3.png?raw=true "team profile generator terminal demo screenshot #3")
