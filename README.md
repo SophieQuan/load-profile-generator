@@ -54,5 +54,4 @@ To run test, run the following:
 
 ## Demo
 Video walk through can be found here:
-
-      https://watch.screencastify.com/v/CFIpGLLzLqP99b6MQFko
+https://watch.screencastify.com/v/CFIpGLLzLqP99b6MQFko
